@@ -1,0 +1,64 @@
+*,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(41, 41, 87);
+}
+.container-top-nav div ul li {
+    list-style: none;
+}
+
+.container-top-nav div ul li a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    padding: 20px;
+    margin: 0 20px 0 20px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+
+#logo {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.links-nav-top {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 15%;
+    background-color: rgb(28, 78, 145);
+    box-shadow: 1px 1px 20px black; 
+}
+
+.links-nav-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(8, 146, 38);
+    box-shadow: 1px 1px 20px black;
+    
+}
+
+.links-nav-bottom div ul li {
+    list-style: none;
+}
+
+.links-nav-bottom div ul li a {
+    text-decoration: none;
+    padding: 20px;
+    margin: 20px;
+    margin: 0 10% 0 12%;
+}
