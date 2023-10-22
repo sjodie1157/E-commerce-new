@@ -136,3 +136,65 @@ body {
 }
 
 /* contact us */
+
+
+.form-name, .form-surname, p {
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    font-size: large;
+    padding: 0 0 5% 10%;
+}
+
+#form-email {
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    font-size: large;
+    padding: 0 0 5% 10%;
+}
+
+#firstName, #lastName, #email {
+    display: flex;
+    justify-content: center;
+    background-color: #071952;
+    color: aliceblue;
+    border: 2px solid #35A29F;
+    padding: 5px;
+}  
+
+.container-contact {
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+}
+
+.line {
+    display: flex;
+    justify-content: space-between;
+    width: 0.5%;
+    border-radius: 200%;
+    background-color: white;
+}
+
+.business-info {
+    width: 100%;
+}
+
+
+
+.contact-business {
+    width: auto;
+    position: relative;
+    left: 4%;
+    display: flex;
+}
+
+.business-address h2 {
+    color: #ffffff;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+.business-address div p {
+    padding: 1px;
+    color:#35A29F;
+}
+
