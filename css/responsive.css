@@ -1,0 +1,40 @@
+@media screen and (max-width: 767px) {
+
+    .nav-list li a {
+        font-size: 0.8em;
+    }
+
+    .nav-list-bottom a {
+        font-size: 0.8em;
+        font-weight:400;
+    }
+
+    .logo-video p {
+        font-size: 2em;
+    }
+
+    .container-about h2 {
+        font-size: 0.8em;
+    }
+
+    .container-about p {
+        font-size: 0.2em;
+    }
+
+    .col-2 h2 {
+        font-size: 0.8em;
+    }
+
+    .col-2 p {
+        font-size: 0.6em;
+    }
+
+    .col-2 input {
+        padding: 0 0.01em;
+        margin: 0em;
+    }
+
+    
+}
+    
+
