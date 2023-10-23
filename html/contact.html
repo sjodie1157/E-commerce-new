@@ -8,126 +8,64 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
-
+<!-- linked css pages -->
     <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/responsive.css">
 
 
     <title>About Us</title>
 </head>
 <body id="home">
     <!--================ top navbar ===================-->
-        <nav id="top" class="container-top-nav">
-            <div class="links-nav-top">
-            </ul>
-            <div>
-                <ul>
-                    <li><a href="/html/contact.html">Contact Us</a></li>
-                </ul>
-            </div>
-            <div>
-                <ul>
-                    <li><a href="/html/about.html">About Us</a></li>
-                </ul>
-            </div>
-            <div id="logo">
-                <a href="/index.html">
-                    <P>
-                        GAMEOPOLIS
-                    </P>
-                </a>
-            </div>
-            <div>
-                <ul>
-                    <li><a href="/html/admin.html">Admin</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-        <!-- <nav id="top" class="container-top-nav">
-            <div class="links-nav-top">
-            </ul>
-            <div>
-                <ul>
-                    <li><a href="/html/contact.html">Contact Us</a></li>
-                </ul>
-            </div>
-            <div>
-                <ul>
-                    <li><a href="/html/about.html">About Us</a></li>
-                </ul>
-            </div>
-            <div id="logo">
-                <a href="/index.html">
-                    <P>
-                        GAMEOPOLIS
-                    </P>
-                </a>
-            </div>
-            <div>
-                <ul>
-                    <li><a href="/html/admin.html">Admin</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav> -->
+    <section class="container">
+        <ul class="nav-list">
+            <li><a href="#home">Contact Us</a></li>
+            <li><a href="/html/about.html">About Us</a></li>
+            <li><a href="/index.html">GAMEOPOLIS</a></li>
+            <li><a href="/html/admin.html">Admin</a></li>
+        </ul>
+    </section>    
   <!--================ bottom navbar ==================-->
-    <nav id="navbottom" class="container-bottom-nav">
-        <div class="links-nav-bottom">
-            <div>
-                <ul>
-                    <li><a href="/html/products/PC.html">PC</a></li>
-                </ul>
-            </div>
-            <div>
-                <ul>
-                    <li><a href="/html/products/PS5.html">PS5</a></li>
-                </ul>
-            </div>
-            <div>
-                <ul>
-                    <li><a href="/html/products/PS4.html">PS4</a></li>
-                </ul>
-            </div>
-            <div>
-                <ul>
-                    <li><a href="/html/products/XBOX.html">XBOX</a></li>
-                </ul>
-            </div>
-            <div>
-                <ul>
-                    <li><a href="/html/checkout.html">Cart</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
+  <section class="container-bottom">
+    <ul class="nav-list-bottom">
+        <li><a href="/html/products/PC.html">PC</a></li>
+        <li><a href="/html/products/PS5.html">PS5</a></li>
+        <li><a href="/html/products/PS4.html">PS4</a></li>
+        <li><a href="/html/products/XBOX.html">XBOX</a></li>
+    </ul>
+</section>  
     <!-- ================== Contact page ================== -->
     
 <section>
-<div class="container-content">
-    <form>
-        <div class="form-content">
-            <p>Name:</p>
-            <input type="Name">
+<div class="container-contact">
+    <div class="col-2">
+        <form action="">
+            <p>
+                Name:
+            </p>
+            <input type="Name" name="firstName" id="firstName" required>
+            <p>
+                Surame:
+            </p>
+            <input type="Surname" name="LastName" id="lastName" required>
+            <p>
+                Email:
+            </p>
+            <input type="Email" name="email" id="email" required>
+        </form>
+        <div class="col-4">
         </div>
-        <div class="form-content">
-            <p>Surname:</p>
-            <input type="surname">
+        <div>
+            <div class="col-2">
+                <div class="based-list">
+                    <h2>Based In</h2>
+                    <p>Cape Town</p>
+                    <p>Grassy Park</p>
+                    <p>South Africa</p>
+                </div>
         </div>
-        <div class="form-content">
-            <p>Email:</p>
-            <input type="email">
-        </div>
-        <button class="form-btn">SUBMIT</button>
-    </form>
-    <div class="devider"></div>
-    <div class="details">
-        <div class="detail-content">
-            <h3>Based in:</h3>
-            <p>Cape Town</p>
-            <p>Grassy park</p>
-            <p>South Aftica</p>
-            <p>7941</p>
+        <div>
+            
         </div>
     </div>
 </div>
